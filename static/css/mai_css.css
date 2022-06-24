@@ -1,0 +1,91 @@
+body{
+    background-color: pink;
+}
+
+@font-face {
+    font-family: beafont;
+    src: url(/static/font/Baefont_normal-Regular_V1.ttf);
+}
+/* Page_box */
+.page_box{
+    background-color: rgb(67, 37, 133);
+    height: 720px;
+    width: 101.04%;
+    margin: 0px;
+    margin-left: -7.7px;
+    box-sizing: border-box;
+    padding: 0.1px;
+}
+#box_homepage{
+    margin-top: -8px;
+    background-color: rgb(133, 37, 133);
+    /* background-image: url(/static/img/TimeToDisco\(0\)_0.png); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+#box_aboutme{
+    background-color: rgb(133, 111, 37);
+}
+#box_mycode{
+    background-color: rgb(37, 133, 130);
+}
+#box_article{
+    background-color: rgb(133, 67, 37);
+}
+#box_information{
+    background-color: rgb(37, 58, 133);
+    height: 150px;
+}
+
+/* menu */
+.menu{
+    height: 80px;
+    width: 101.04%;
+    margin: 0px;
+    border: 0px;
+    margin-top: -8px;
+    margin-left: -7.7px;
+    background-color: rgba(83, 80, 80, 0.429);
+    display: flex;
+    position: fixed;
+}
+.menu_textbox{
+    margin-top: 30px;
+    margin-left: 60%;
+}
+.menu_tbox{
+    display: inline;
+}
+.menu_text{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+    
+}
+
+/* Home_page */
+
+    /* .homepage_bg{
+        width: 100%;
+        height: auto;
+        opacity: 0.5;
+    } */
+
+/* About_me */
+.aboutme_photo{
+    border-radius: 150px;
+    background: #fff;
+    height: 290px;
+    width: 290px;
+    margin-top: 220px;
+    margin-left: 200px;
+}
+.photo{
+    height: 300px;
+    width: auto;
+    margin-top: -5px;
+    margin-left: -5px;
+}
